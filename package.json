@@ -12,7 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
-    "mongodb": "^3.6.4",
+    "mongodb": "^3.6.3",
     "mongoose": "^5.11.17",
     "strapi": "3.5.0",
     "strapi-admin": "3.5.0",
