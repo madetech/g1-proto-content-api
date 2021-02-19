@@ -1,0 +1,18 @@
+FROM node:14
+
+COPY package*.json ./
+
+RUN npm ci
+
+COPY . ./
+
+ENV DATABASE_NAME = $DATABASE_NAME
+ENV DATABASE_URI = $DATABASE_URI
+ENV HEROKU_URL = $HEROKU_URL
+ENV DATABASE_SSL = $DATABASE_SSL
+
+RUN npm run build
+
+EXPOSE 1337:1337
+
+CMD ["npm", "run", "start"]
