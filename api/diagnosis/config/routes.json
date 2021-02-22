@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/tags",
-      "handler": "tag.find",
+      "path": "/diagnoses",
+      "handler": "diagnosis.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tags/count",
-      "handler": "tag.count",
+      "path": "/diagnoses/count",
+      "handler": "diagnosis.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tags/:id",
-      "handler": "tag.findOne",
+      "path": "/diagnoses/:id",
+      "handler": "diagnosis.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/tags",
-      "handler": "tag.create",
+      "path": "/diagnoses",
+      "handler": "diagnosis.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/tags/:id",
-      "handler": "tag.update",
+      "path": "/diagnoses/:id",
+      "handler": "diagnosis.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/tags/:id",
-      "handler": "tag.delete",
+      "path": "/diagnoses/:id",
+      "handler": "diagnosis.delete",
       "config": {
         "policies": []
       }

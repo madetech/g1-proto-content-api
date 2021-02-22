@@ -23,9 +23,6 @@
     "title": {
       "type": "string"
     },
-    "diagnosis": {
-      "collection": "tag"
-    },
     "maxAge": {
       "type": "integer"
     },
@@ -49,6 +46,9 @@
     },
     "virtualnesses": {
       "collection": "virtualness"
+    },
+    "diagnoses": {
+      "collection": "diagnosis"
     }
   }
 }

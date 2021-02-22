@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "diagnoses",
   "info": {
-    "name": "diagnosis",
-    "description": ""
+    "name": "Diagnosis"
   },
   "options": {
     "increments": true,
@@ -12,6 +11,9 @@
   },
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "human_text": {
       "type": "string"
     }
   }
