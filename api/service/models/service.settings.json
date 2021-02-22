@@ -23,7 +23,7 @@
     "title": {
       "type": "string"
     },
-    "tags": {
+    "diagnosis": {
       "collection": "tag"
     },
     "maxAge": {
@@ -31,6 +31,24 @@
     },
     "minAge": {
       "type": "integer"
+    },
+    "severities": {
+      "collection": "severity"
+    },
+    "treatment_types": {
+      "collection": "treatment-type"
+    },
+    "locations": {
+      "collection": "location"
+    },
+    "national": {
+      "type": "boolean"
+    },
+    "support_types": {
+      "collection": "support-type"
+    },
+    "virtualnesses": {
+      "collection": "virtualness"
     }
   }
 }

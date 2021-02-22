@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "locations",
   "info": {
-    "name": "diagnosis",
-    "description": ""
+    "name": "location"
   },
   "options": {
     "increments": true,

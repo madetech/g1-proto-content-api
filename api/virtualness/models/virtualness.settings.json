@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "virtualnesses",
   "info": {
-    "name": "diagnosis",
+    "name": "virtualness",
     "description": ""
   },
   "options": {

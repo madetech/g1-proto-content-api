@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "severities",
   "info": {
-    "name": "diagnosis",
-    "description": ""
+    "name": "severity"
   },
   "options": {
     "increments": true,

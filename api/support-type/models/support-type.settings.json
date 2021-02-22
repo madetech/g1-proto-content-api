@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "support_types",
   "info": {
-    "name": "diagnosis",
-    "description": ""
+    "name": "support_type"
   },
   "options": {
     "increments": true,

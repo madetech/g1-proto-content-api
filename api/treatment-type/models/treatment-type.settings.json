@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "treatment_types",
   "info": {
-    "name": "diagnosis",
-    "description": ""
+    "name": "treatment_type"
   },
   "options": {
     "increments": true,
