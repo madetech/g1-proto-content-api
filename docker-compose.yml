@@ -16,5 +16,7 @@ services:
       # - ./webapp:/opt/webapp
   mongodb:
     image: mongo:latest
+    volumes: 
+      - /data/db
     ports:
       - "27017:27017"
