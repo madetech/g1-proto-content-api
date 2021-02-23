@@ -49,6 +49,12 @@
     },
     "diagnoses": {
       "collection": "diagnosis"
+    },
+    "tags": {
+      "collection": "tag"
+    },
+    "schools": {
+      "collection": "school"
     }
   }
 }
