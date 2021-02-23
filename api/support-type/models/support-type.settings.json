@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "support_types",
   "info": {
-    "name": "support_type"
+    "name": "support_type",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,6 +12,9 @@
   },
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "human_text": {
       "type": "string"
     }
   }

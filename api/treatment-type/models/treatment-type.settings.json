@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "treatment_types",
   "info": {
-    "name": "treatment_type"
+    "name": "treatment_type",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,6 +12,9 @@
   },
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "human_text": {
       "type": "string"
     }
   }
