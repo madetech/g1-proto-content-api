@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sleeps",
+  "info": {
+    "name": "sleep"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "human_text": {
+      "type": "string"
+    },
+    "conversational_text": {
+      "type": "string"
+    }
+  }
+}
