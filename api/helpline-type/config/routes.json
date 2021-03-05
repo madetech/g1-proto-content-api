@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/helpline-types",
+      "handler": "helpline-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/helpline-types/count",
+      "handler": "helpline-type.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/helpline-types/:id",
+      "handler": "helpline-type.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/helpline-types",
+      "handler": "helpline-type.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/helpline-types/:id",
+      "handler": "helpline-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/helpline-types/:id",
+      "handler": "helpline-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

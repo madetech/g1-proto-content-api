@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "helpline_types",
+  "info": {
+    "name": "helpline_type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
