@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diagnoses",
+  "info": {
+    "name": "Diagnosis",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "human_text": {
+      "type": "string"
+    },
+    "conversational_text": {
+      "type": "string"
+    }
+  }
+}

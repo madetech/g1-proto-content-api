@@ -29,24 +29,32 @@
     "minAge": {
       "type": "integer"
     },
+    "severities": {
+      "collection": "severity"
+    },
+    "treatment_types": {
+      "collection": "treatment-type"
+    },
+    "locations": {
+      "collection": "location"
+    },
     "national": {
-      "type": "boolean",
-      "default": false,
-      "required": true
+      "type": "boolean"
     },
     "support_types": {
       "collection": "support-type"
     },
+    "virtualnesses": {
+      "collection": "virtualness"
+    },
+    "diagnoses": {
+      "collection": "diagnosis"
+    },
     "tags": {
       "collection": "tag"
     },
-    "helpline_types": {
-      "collection": "helpline-type"
-    },
-    "free": {
-      "type": "boolean",
-      "default": true,
-      "required": true
+    "schools": {
+      "collection": "school"
     }
   }
 }

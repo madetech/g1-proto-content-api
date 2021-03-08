@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sleeps",
+      "handler": "sleep.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sleeps/count",
+      "handler": "sleep.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sleeps/:id",
+      "handler": "sleep.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sleeps",
+      "handler": "sleep.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sleeps/:id",
+      "handler": "sleep.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sleeps/:id",
+      "handler": "sleep.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
