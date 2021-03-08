@@ -12,6 +12,9 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "human_text": {
+      "type": "string"
     }
   }
 }
